@@ -1,8 +1,9 @@
+# schedule refresh
 name: Daily Southair Bidding Brief
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
