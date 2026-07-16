@@ -1,0 +1,30 @@
+site:
+  base_url: "https://csbidding.csair.cn"
+  webfile_base: "https://csbidding.csair.cn/cms/nfhk/webfile"
+  api_url: "https://csbidding.csair.cn/cms/api/dynamicData/queryContentPage"
+  site_id: "747"
+  page_size: 50
+  max_pages: 5
+  request_timeout_seconds: 20
+
+columns:
+  - name: "招标公告"
+    category_id: "964895061131132928"
+    index_url: "https://csbidding.csair.cn/cms/nfhk/webfile/zbcg/zbgg/index.html"
+  - name: "采购公告"
+    category_id: "964893593951010816"
+    index_url: "https://csbidding.csair.cn/cms/nfhk/webfile/fzbcg/cggg/index.html"
+
+report:
+  timezone: "Asia/Shanghai"
+  subject_prefix: "南航采购招标网今日新增公告"
+
+mail:
+  smtp_host_env: "SMTP_HOST"
+  smtp_port_env: "SMTP_PORT"
+  smtp_user_env: "SMTP_USER"
+  smtp_password_env: "SMTP_PASSWORD"
+  smtp_from_env: "SMTP_FROM"
+  smtp_to_env: "SMTP_TO"
+  smtp_use_ssl_env: "SMTP_USE_SSL"
+  smtp_use_starttls_env: "SMTP_USE_STARTTLS"
