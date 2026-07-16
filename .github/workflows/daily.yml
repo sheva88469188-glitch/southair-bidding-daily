@@ -2,8 +2,7 @@ name: Daily Southair Bidding Brief
 
 on:
   schedule:
-    # 21:09 Beijing time = 13:09 UTC
-    - cron: "9 13 * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 jobs:
