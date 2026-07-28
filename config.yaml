@@ -6,6 +6,8 @@ site:
   page_size: 50
   max_pages: 5
   request_timeout_seconds: 20
+  request_retry_times: 3
+  request_retry_delay_seconds: 5
 
 columns:
   - name: "招标公告"
